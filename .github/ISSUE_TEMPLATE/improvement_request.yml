@@ -1,0 +1,66 @@
+name: Improvement / Feature Request
+description: Suggest an improvement or propose new functionality for a tooling repository.
+title: "[Improvement]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+
+        This template is for changes to **tooling** repositories (scripts, integrations,
+        automation) in the Zextras-Partners organization. Requests for changes to Carbonio
+        product behaviour or new product features are out of scope here and must be submitted
+        through the Partner Portal instead.
+
+        A complete technical implementation is not required to open this request. Breaking
+        changes must be discussed here before implementation begins.
+
+        Do not include confidential or sensitive information (see repository contribution
+        guidelines).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current problem or limitation
+      description: What isn't working well today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative solutions considered
+    validations:
+      required: false
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Potential compatibility impact
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have checked for existing issues or proposals covering the same idea.
+          required: true
+        - label: This is a change to tooling (scripts, integrations, automation) and not a Carbonio product feature request.
+          required: true
