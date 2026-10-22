@@ -18,7 +18,6 @@ Tools that help Zextras partners run Carbonio on their own: migrate customers, d
 
 | Repository | |
 | --- | --- |
-| [carbonio-grafana-dashboards](https://github.com/Zextras-Partners/carbonio-grafana-dashboards) | Grafana dashboards to monitor Carbonio |
 | [carbonio-collect](https://github.com/Zextras-Partners/carbonio-collect) | Collects Carbonio diagnostics from a mailbox server, ready to share in a Partner Portal ticket |
 
 The other tools are reserved for members of certified partner organizations. Access is managed from the Partner Portal.
