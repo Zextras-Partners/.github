@@ -4,14 +4,14 @@
 
 <br>
 
-Tools that help Zextras partners run Carbonio on their own: migrate customers, deploy and keep installations healthy. They complement the documentation on the **[Zextras Partner Portal](https://support.zextras.com)**.
+Tools that help Zextras partners run Carbonio on their own: migrate customers, deploy, and keep installations healthy. They complement the documentation on the **[Zextras Partner Portal](https://support.zextras.com)**.
 
 ### Find the area that fits your needs
 
 |  | Area | What you'll find |
 | :---: | --- | --- |
 | ⇄ | **Migrate a customer** | From Zimbra, Exchange, IMAP servers and PST archives, with Files and Drive data included. |
-| ☰ | **Implement & operate** | SSL certificates, storage volumes, LDAP replicas, high availability, database backups. |
+| ☰ | **Implement & operate** | SSL certificates, storage volumes, LDAP replica promotion, high availability, database backups. |
 | ◎ | **Monitor & troubleshoot** | Grafana dashboards and a diagnostics collector to attach to support tickets. |
 
 ### Open to everyone
